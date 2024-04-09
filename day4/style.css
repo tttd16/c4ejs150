@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#header {
+    position: relative;
+}
+
+#left {
+    position: absolute;
+    width: 464px;
+    height: 498px;
+    top: 157px;
+    left: 126px;
+    /* gap: 32px; */
+}
+
+#left > h1 {
+    width: 400px;
+    height: 240px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+#left > p {
+    width: 350px;
+    height: 128px;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 32px 0;
+}
+
+#left > div {
+    background-color: #A36A4F;
+    width: 179px;
+    height: 66px;
+    border-radius: 36px;
+    padding: 24px 48px;
+}
+
+#left > div > span {
+    width: 83px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+#right {
+    position: relative;
+    width: 592px;
+    top: 64px;
+    left: 730px;
+}
+
+#img-1, #img-2 {
+    position: absolute;
+    border-radius: 50%;
+}
+
+#img-1 {
+    width: 312px;
+    height: 312px;
+    top:344px;
+    left: 300px;
+}
+
+#img-2 {
+    top: 64px;
+    width: 440px;
+    height: 440px;
+
+}
+
+#footer {
+    position: relative;
+    top: 806px;
+    width: 1440px;
+    height: 472px;
+}
+
+#section-1 {
+    position: absolute;
+    top: 94px;
+    width: 1440px ;
+    height: 472px;
+    background-color: #363032;
+}
+
+#section-1 > div {
+    position: relative;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    top: 138px;
+    left: 63px;
+    width: 1314px;
+    height: 286px;
+}
+
+.section-1--img {
+    display: inline-block;
+    width: 186px;
+    height: 286px;
+}
+
+.section-1--img > img {
+    width: 186px;
+    height: 246px;
+    border-radius: 16px;
+}
+
+.section-1--img  > p {
+    width: 168px;
+    height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+#section-2 {
+    position: absolute;
+    left: 281px;
+    width: 878px;
+    height: 188px;
+    padding: 24px 96px;
+    background-color: #ECDAC4;
+    border-radius: 80px;
+}
+
+#section-2 > div {
+    display: flex;
+    justify-content: center;
+    width: 686px;
+    height: 140px;
+}
+
+.section-2--content {
+    text-align: center;
+    width: 170px;
+    height: 140px;
+}
+
+.section-2--content > span {
+    width: 74px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.section-2--content > p {
+    width: 170px;
+    height: 48px;
+    font-weight: 400;
+}
+
+
+
