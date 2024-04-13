@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===================== Header =============================== */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9FCFF;
+    padding: 40px 80px 0 80px;
+}
+
+#header-logo {
+
+}
+#header-logo > img {
+    width: 42px;
+    height: 38px;
+}
+
+#header-center {
+}
+
+#header-center > ul {
+    display: flex;
+    list-style-type: none;
+    gap: 48px;
+}
+
+#header-search {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+#header-search > img {
+    width: 23px;
+    height: 23px;
+}
+
+#header-search > div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: 55px;
+    gap: 8px;
+}
+
+#header-search > div > img {
+    position: absolute;
+    left: 10px;
+    width: 23px;
+    height: 23px;
+    opacity: 40%;
+}
+
+#header-search > div > input {
+    border: 1px solid #EBEFF6;
+    padding: 16px 80px 16px 16px;
+    border-radius: 8px;
+}
+
+#header-search > div > input:focus-visible {
+    outline: red solid 3px;
+}
+
+
+#header-search > div > input[type="text"]::placeholder {
+    position: absolute;
+    opacity: 40%;
+    left: 40px;
+}  
+
+/* =================== Section-1 ============================== */
+
+section {
+    /* width: 1440px; */
+}
+
+#section-1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FCFF;
+    height: 929px;
+    padding: 0px 80px 0px 80px;
+    gap: 251px;
+}
+
+#section-1--right {
+    display: flex;
+    flex-direction: column;
+    width: 624px;
+    height: 599px;
+    gap: 40px;
+}
+
+#section-1--right > div {
+    width: 624px;
+}
+
+#section-1--right > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+    height: 360px;
+}
+
+#section-1--right > div > h1  {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    color: #1A2434;
+}
+
+#section-1--right > div > p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+#section-1--right > div > div {
+    display: flex;
+    gap: 40px;
+    height: 96px;
+}
+
+#line {
+    height: 96px;
+    border: 4px solid #A4074D;
+}
+
+#total-students {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#total-students > h6 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1A2434;
+}
+
+#total-students > div {
+    position: relative;
+    width: 224px;
+    height: 64px;
+}
+
+#total-students > div > img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+#total-students > div > img:nth-child(2) {
+    left: 40px;
+    z-index: 10;
+}
+
+#total-students > div > img:nth-child(3) {
+    left: 80px;
+    z-index: 10;
+}
+
+#total-students > div > img:nth-child(4) {
+    left: 120px;
+    z-index: 10;
+}
+
+#total-students > div > img:nth-child(5) {
+    left: 160px;
+    z-index: 10;
+}
+
+#section-1--right > div:nth-child(2) {
+    display: flex;
+    gap: 16px;
+    height: 77px;
+}
+
+#section-1--right > div:nth-child(2) >button {
+    width: 307px;
+    border-radius: 16px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+#section-1--right > div:nth-child(2) >button:nth-child(1) {
+    background-color: #A4074D;
+    color: #ffffff;
+    border: none;
+}
+
+#section-1--right > div:nth-child(2) >button:nth-child(2) {
+    border: 1px solid #A4074D;
+}
+
+#section-1--right > div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    height: 82px;
+    gap: 8px;
+}
+
+#section-1--right > div:nth-child(3) > h6 {
+    color: #1A2434;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+#section-1--right > div:nth-child(3) > div {
+    display: flex;
+    gap: 8px;
+    height: 50px;
+}
+
+#section-1--right > div:nth-child(3) > div > img {
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    border: 1px solid #EBEFF6;
+}
+
+#section-1--info {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 296px;
+    height: 176px;
+    border-radius: 16px;
+    padding: 16px 32px;
+    gap: 16px;
+    background-color: #FFFFFF;
+}
+
+#section-1--info > h5 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #1A2434;
+}
+
+.info {
+    display: flex;
+    width: 166px;
+    height: 42px;
+    gap: 8px;
+}
+
+.info > div > h6 {
+    width: 116px;
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A2434;
+}
+
+.info > div > p {
+    width: 88px;
+    height: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color:#575455 ;
+}
+
+/* ====================== Section2 =========== */
+
+#section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    height: 689px;
+    padding: 80px;
+}
+
+#section-2 > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 439px;
+    height: 88px;
+}
+
+#section-2 > div:nth-child(1) > div {
+    display: flex;
+    align-items: center;
+    width: 267px;
+    height: 29px;
+    gap: 24px;
+}
+
+#section-2 > div:nth-child(1) > div > div {
+    width: 64px;
+    height: 0;
+    border: 4px solid #A4074D;
+}
+
+#section-2 > div:nth-child(1) > div > p {
+    width: 179px;
+    opacity: 70%;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+    color:#1A2434 ;
+}
+
+#section-2 > div:nth-child(1) > h2 {
+    width: 439px;
+    height: 43px;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #1A2434;
+}
+
+#section-2 > div:nth-child(2) {
+    display: flex;
+    gap: 32px;
+    width: 1280px;
+    height: 361px;
+}
+
+.section-2--info {
+    display: flex;
+    flex-direction: column;
+    width: 296px;
+    height: 361px;
+    padding: 24px;
+    border: 1px solid #F9FCFF;
+    gap: 24px;
+}
+
+.section-2--info  > h6 {
+    height: 29px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.section-2--info  > p {
+    width: 248px;
+    height: 72px;
+    opacity: 70%;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.section-2--info > div {
+    display: flex;
+    gap: 16px;
+    width: 154px;
+    height: 24px;
+}
+
+.section-2--info > div > p {
+    width: 114px;
+    height: 24px;
+    opacity: 70%;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
